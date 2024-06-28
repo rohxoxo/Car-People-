@@ -36,7 +36,7 @@ const resolvers = {
       const person = find(people, { id: args.id });
       if (!person) throw new Error(`Couldn't find person with id ${args.id}`);
       remove(people, p => p.id === args.id);
-      remove(cars, c => c.personId === args.id); // Also remove the person's cars
+      remove(cars, c => c.personId === args.id); 
       return person;
     },
     addCar: (root, args) => {
