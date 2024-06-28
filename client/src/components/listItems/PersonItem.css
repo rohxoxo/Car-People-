@@ -1,0 +1,32 @@
+.person-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .edit-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-form > div {
+    margin-right: 10px;
+  }
+  
+  .edit-form label {
+    margin-right: 5px;
+  }
+  
+  .edit-form input {
+    padding: 5px;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .buttons > * {
+    margin-right: 10px;
+  }
+  

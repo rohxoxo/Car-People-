@@ -1,0 +1,27 @@
+.horizontal-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-field {
+    display: flex;
+    align-items: center;
+    margin-right: 15px; 
+  }
+  
+  .form-field label {
+    margin-right: 5px; 
+    width: 100px; 
+  }
+  
+  .form-field input {
+    padding: 5px;
+    flex: 1;
+  }
+  
+  .submit-button {
+    padding: 5px;
+    height: 32px; 
+    flex: 1; 
+  }
+  
